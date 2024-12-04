@@ -78,7 +78,7 @@
                 span 7
               span
                 b Conclusiones:
-                |   Resume los hallazgos m&aacute;s importantes del informe y sugiere posibles acciones o recomendaciones basadas en los datos. Tambi&eacute;n se pueden mencionar las limitaciones del estudio y posibles &aacute;reas de mejora para investigaciones futuras.
+                |   resume los hallazgos m&aacute;s importantes del informe y sugiere posibles acciones o recomendaciones basadas en los datos. Tambi&eacute;n se pueden mencionar las limitaciones del estudio y posibles &aacute;reas de mejora para investigaciones futuras.
             hr
             li
               .lista-ol--cuadro__vineta
@@ -229,13 +229,13 @@
                   i.fas.fa-check.v1
                   span.mb-0
                     b Conclusiones:
-                    |  Resumen de los hallazgos m&aacute;s importantes del an&aacute;lisis. Se deben mencionar los principales aspectos que respondan a las preguntas de investigaci&oacute;n.
+                    |  resumen de los hallazgos m&aacute;s importantes del an&aacute;lisis. Se deben mencionar los principales aspectos que respondan a las preguntas de investigaci&oacute;n.
             .bgw.p-3.brad
               ul.lista-ul--color.fa-ul
                 li.mb-3
                   i.fas.fa-check.v1
                   span.mb-0
-                    | Recomendaciones: Sugerencias sobre c&oacute;mo aplicar los resultados en un contexto pr&aacute;ctico. Pueden incluir propuestas de cambios, mejoras, o recomendaciones para futuras investigaciones.
+                    | #[b Recomendaciones:] sugerencias sobre c&oacute;mo aplicar los resultados en un contexto pr&aacute;ctico. Pueden incluir propuestas de cambios, mejoras, o recomendaciones para futuras investigaciones.
         .col-lg-5.my-lg-0.my-3.j1
           img.img-t.img-a(src='@/assets/template/images/cf3/116.png')
     .separador-container

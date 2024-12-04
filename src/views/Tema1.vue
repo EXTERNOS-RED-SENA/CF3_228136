@@ -29,10 +29,10 @@
       | , tambi&eacute;n conocida simplemente como media, es la medida de tendencia central m&aacute;s utilizada. Se calcula sumando todos los valores de los datos y dividiendo el resultado entre el n&uacute;mero total de observaciones. La media es especialmente &uacute;til cuando los datos est&aacute;n distribuidos de manera sim&eacute;trica, ya que refleja el valor promedio del conjunto.
     .row.justify-content-center.align-items-center
       .col-lg-3.my-3
-        img.img-t.img-a(src='@/assets/template/images/cf3/5.png')
+        img.img-t.img-a.d-lg-block.d-none(src='@/assets/template/images/cf3/5.png')
       .col-lg-7.my-3
         h5  Formula: 
-        img.img-t.mb-4(src='@/assets/template/images/cf3/f-1.png')
+        img.img-t.mb-4(src='@/assets/template/images/cf3/f-1.png' alt='Texto alternativo: La imagen muestra una representación visual educativa para calcular la media aritmética. La media aritmética (representada por la letra x con una barra encima) se calcula sumando todos los valores (xi) y dividiendo entre el número total de valores (n). La sumatoria de los valores (Σxi) representa la suma de todos los valores individuales. n representa el número total de valores o observaciones en el conjunto de datos. Al dividir la sumatoria de los valores entre el número total de valores, se obtiene la media aritmética, que es la medida de tendencia central que representa el valor promedio del conjunto.')
         .brad.p-3.h-100
           p.mb-3
             b Donde:
@@ -69,7 +69,7 @@
             li.mb-3
               i.fas.fa-check.v1
               span
-                | Afectada por valores at&iacute;picos (outliers), lo que puede distorsionar la interpretaci&oacute;n.
+                | Afectada por valores at&iacute;picos (#[em outliers]), lo que puede distorsionar la interpretaci&oacute;n.
     .separador-container
       .separador
     section
@@ -77,12 +77,12 @@
         h2 1.2&#x9;Mediana
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-auto
-          img.img-a.img-t(src='@/assets/template/images/cf3/9.png' alt='')
+          img.img-a.img-t.mb-lg-0.mb-3(src='@/assets/template/images/cf3/9.png' alt='')
         .col.pt-lg-0.pt-md-4
           p.mb-0
             | La 
             b mediana
-            |  es el valor central de un conjunto de datos ordenado de menor a mayor. Divide el conjunto de datos en dos partes iguales, de tal manera que el 50% de las observaciones son menores o iguales a la mediana, y el 50% son mayores o iguales a ella. A diferencia de la media, la mediana no se ve afectada por valores at&iacute;picos, lo que la convierte en una medida m&aacute;s robusta en distribuciones asim&eacute;tricas.
+            |  es el valor central de un conjunto de datos ordenado de menor a mayor. Divide el conjunto de datos en dos partes iguales, de tal manera que el 50 % de las observaciones son menores o iguales a la mediana, y el 50 % son mayores o iguales a ella. A diferencia de la media, la mediana no se ve afectada por valores at&iacute;picos, lo que la convierte en una medida m&aacute;s robusta en distribuciones asim&eacute;tricas.
           p
       p.mb-5
         .row.justify-content-center
@@ -162,14 +162,14 @@
       p.mb-5
         | La 
         b media geom&eacute;trica
-        |  es una medida de tendencia central que se utiliza principalmente para conjuntos de datos positivos que est&aacute;n relacionados multiplicativamente, como tasas de crecimiento o porcentajes de cambio. Se calcula multiplicando todos los valores y extrayendo la ra&iacute;z en&eacute;sima del producto, donde nnn es el n&uacute;mero total de observaciones.
+        |  es una medida de tendencia central que se utiliza principalmente para conjuntos de datos positivos que est&aacute;n relacionados multiplicativamente, como tasas de crecimiento o porcentajes de cambio. Se calcula multiplicando todos los valores y extrayendo la ra&iacute;z en&eacute;sima del producto, donde n es el n&uacute;mero total de observaciones.
       .row.justify-content-center
         .col-lg-4.my-3
           .bg16.brad.p-4.h-100
             img.img-a.img-t(src='@/assets/template/images/cf3/14.svg' alt='')
         .col-lg-8.my-3
           .bg15.brad.br-d.h-100.p-4
-            h5  Formula: 
+            h5  Fórmula: 
             img.img-t.mb-4(src='@/assets/template/images/cf3/15.png')
             div
               p.mb-3
@@ -222,7 +222,7 @@
       .row.justify-content-center
         .col-lg-4.my-3
           .bg7.brad.h-100.p-4
-            h5.text-white  Formula: 
+            h5.text-white  Fórmula: 
             img.img-t.mb-4(src='@/assets/template/images/cf3/20.png')
             div
               p.mb-3
@@ -292,7 +292,7 @@
                 li.mb-3
                   i.fas.fa-check.v1
                   span
-                    | Se eliminan un porcentaje predeterminado de los valores m&aacute;s altos y m&aacute;s bajos.
+                    | Se elimina un porcentaje predeterminado de los valores m&aacute;s altos y m&aacute;s bajos.
                 li.mb-3
                   i.fas.fa-check.v1
                   span
@@ -314,7 +314,7 @@
                     | Es &uacute;til en situaciones donde los datos contienen valores extremos que podr&iacute;an distorsionar la media.
           .col-lg-4.my-3
             div
-              img.img-t.img-a(src='@/assets/template/images/cf3/28.png')
+              img.img-t.img-a.d-lg-block.d-none(src='@/assets/template/images/cf3/28.png')
     .separador-container
       .separador
     section
@@ -330,7 +330,7 @@
             img.img-a.img-t(src='@/assets/template/images/cf3/29.png' alt='')
         .col-lg-7.my-3
           div
-            h5  Formula: 
+            h5  Fórmula: 
             img.img-t.mb-4(src='@/assets/template/images/cf3/30.png')
             div
               p.mb-3
@@ -343,14 +343,14 @@
                       img.img-a.img-t(src='@/assets/template/images/cf3/31.png' alt='')
                     .col
                       p.mb-0
-                        | es el primer cuartil (25% de los datos por debajo).
+                        | es el primer cuartil (25 % de los datos por debajo).
                 li.mb-3
                   i.fas.fa-check.v1
                   .row.justify-content-center.align-items-center
                     .col-auto
                       img.img-a.img-t(src='@/assets/template/images/cf3/32.png' alt='')
                     .col
-                      p.mb-0  es el tercer cuartil (75% de los datos por debajo).
+                      p.mb-0  es el tercer cuartil (75 % de los datos por debajo).
                 li.mb-3
                   i.fas.fa-check.v1
                   span.mb-0 La mediana divide el conjunto de datos en dos mitades. 

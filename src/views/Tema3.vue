@@ -97,12 +97,12 @@
                   i.fas.fa-check.v1
                   span
                     b Primer decil
-                    |  (D1): Valor que deja por debajo al 10% de los datos.
+                    |  (D<sub>1</sub>): Valor que deja por debajo al 10% de los datos.
                 li.mb-3
                   i.fas.fa-check.v1
                   span
                     b Segundo decil
-                    |  (D2): Valor que deja por debajo al 20% de los datos.
+                    |  (D<sub>2</sub>): Valor que deja por debajo al 20% de los datos.
                 li.mb-3
                   i.fas.fa-check.v1
                   span  ... 
@@ -110,7 +110,7 @@
                   i.fas.fa-check.v1
                   span
                     b Noveno decil
-                    |  (D9): Valor que deja por debajo al 90% de los datos.
+                    |  (D<sub>9</sub>): Valor que deja por debajo al 90% de los datos.
           .bg22.brad.p-4.h-100
             p.mb-4
               b Interpretaci&oacute;n:
@@ -118,7 +118,7 @@
               li.mb-3
                 i.fas.fa-check.v1
                 span
-                  | Cada decil indica la posici&oacute;n del conjunto de datos en fracciones del 10%, proporcionando una idea m&aacute;s granular de c&oacute;mo se distribuyen los valores.
+                  | Cada decil indica la posici&oacute;n del conjunto de datos en fracciones del 10 %, proporcionando una idea m&aacute;s granular de c&oacute;mo se distribuyen los valores.
         .col-lg-4.my-3
           img.img-t.img-a(src='@/assets/template/images/cf3/73.png')
     .separador-container
@@ -129,7 +129,7 @@
       p
         | Los 
         b percentiles
-        |  dividen un conjunto de datos en cien partes iguales, de modo que cada percentil contiene el 1% de las observaciones. Los percentiles son ampliamente utilizados en muchos campos, como la educaci&oacute;n y la salud, para determinar la posici&oacute;n relativa de un individuo o una observaci&oacute;n dentro de una poblaci&oacute;n.
+        |  dividen un conjunto de datos en cien partes iguales, de modo que cada percentil contiene el 1 % de las observaciones. Los percentiles son ampliamente utilizados en muchos campos, como la educaci&oacute;n y la salud, para determinar la posici&oacute;n relativa de un individuo o una observaci&oacute;n dentro de una poblaci&oacute;n.
       .row.justify-content-center.align-items-center
         .col-lg-4.my-3
           img.img-t.img-a(src='@/assets/template/images/cf3/74.png')
@@ -140,22 +140,22 @@
             li.mb-3
               i.fas.fa-check.v1
               span
-                b Primer percentil (P1)
-                | : Valor que deja por debajo al 1% de los datos.
+                b Primer percentil (P<sub>1</sub>)
+                | : Valor que deja por debajo al 1 % de los datos.
             li.mb-3
               i.fas.fa-check.v1
               p
-                b D&eacute;cimo percentil (P10)
-                | : Valor que deja por debajo al 10% de los datos.
+                b D&eacute;cimo percentil (P<sub>10</sub>)
+                | : Valor que deja por debajo al 10 % de los datos.
             li.mb-3
               i.fas.fa-check.v1
               span
                 b
-                | Percentil 50 (P50): Es equivalente a la mediana, ya que deja por debajo al 50% de los datos.
+                | <b>Percentil 50 (P<sub>50</sub>):</b> Es equivalente a la mediana, ya que deja por debajo al 50 % de los datos.
             li.mb-3
               i.fas.fa-check.v1
               span
-                | Percentil 90 (P90): Valor que deja por debajo al 90% de los datos.
+                | <b>Percentil 90 (P<sub>90</sub>):</b> Valor que deja por debajo al 90% de los datos.
           .bg7.brad.p-4.h-100
             p.mb-4
               b.text-white Interpretaci&oacute;n:
@@ -178,7 +178,7 @@
           .bg17.brad.p-4.h-100
             p.mb-4
               b F&oacute;rmula:
-            img.img-t.mb-4(src='@/assets/template/images/cf3/76.png')
+            img.img-t.mb-4(src='@/assets/template/images/cf3/76.png' alt='La imagen proporciona información educativa sobre el rango intercuartílico (IQR). Se presenta la fórmula del rango: IQR=Q3 - Q1, donde Q3Q_3Q3  representa el tercer cuartil y Q1Q_1Q1 el primer cuartil. ')
             p.mb-4
               b Interpretaci&oacute;n:
             ul.lista-ul--color.fa-ul
@@ -190,7 +190,7 @@
                 i.fas.fa-check.v1
                 span
                   | Es menos sensible a los valores extremos que otras medidas de dispersi&oacute;n, como la desviaci&oacute;n est&aacute;ndar.
-        .col-lg-3.my-3
+        .col-lg-3.col-7.my-3
           .bgw.brad.p-4.h-100.j1
             img.img-t.img-a(src='@/assets/template/images/cf3/75.png')
 

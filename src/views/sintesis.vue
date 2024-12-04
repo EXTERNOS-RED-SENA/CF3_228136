@@ -26,7 +26,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.brad.p-5
         figure
-          img(src="@/assets/template/images/cf3/sintesis.svg", alt="La síntesis menciona los principales temas tratados sobre el análisis estadístico de datos y generación de gráficos y algunos subtemas que los integran.")
+          img(src="@/assets/template/images/cf3/sintesis.svg", alt="La Figura 4 se denomina «Síntesis temática del componente», allí se mencionan los principales temas tratados sobre el análisis estadístico de datos y generación de gráficos y algunos subtemas que los integran.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

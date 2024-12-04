@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Análisis estadístico de datos y generación de gráficos',
     descripcionCurso:
-      'Este componente, explora los conceptos fundamentales y las herramientas necesarias para el análisis estadístico, cubriendo desde las medidas de tendencia central y dispersión hasta las probabilidades y gráficos estadísticos. Abarca técnicas precisas para calcular medias, varianza y coeficientes, y profundiza en la interpretación de gráficos y la redacción de informes estadísticos efectivos. ',
+      'Este componente explora los conceptos fundamentales y las herramientas necesarias para el análisis estadístico, cubriendo desde las medidas de tendencia central y dispersión hasta las probabilidades y gráficos estadísticos. Abarca técnicas precisas para calcular medias, varianza y coeficientes, y profundiza en la interpretación de gráficos y la redacción de informes estadísticos efectivos. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -92,7 +92,7 @@ export default {
           },
           {
             numero: '2.3',
-            titulo: 'Varianza	11',
+            titulo: 'Varianza',
             hash: 't_2_3',
           },
           {
@@ -188,7 +188,7 @@ export default {
           },
           {
             numero: '4.7',
-            titulo: 'Distribución t-student',
+            titulo: 'Distribución <em>t-student</em>',
             hash: 't_4_7',
           },
           {
@@ -402,7 +402,7 @@ export default {
         'Distribución de probabilidad simétrica en forma de campana que describe cómo se distribuyen los datos alrededor de la media.',
     },
     {
-      termino: 'Distribución t-student',
+      termino: 'Distribución <em>t-student</em>',
       significado:
         'Distribución de probabilidad utilizada en inferencia estadística, especialmente cuando el tamaño de la muestra es pequeño.',
     },

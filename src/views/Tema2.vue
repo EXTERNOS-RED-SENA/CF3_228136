@@ -35,10 +35,10 @@
         b rango
         |  es la diferencia entre el valor m&aacute;s alto y el m&aacute;s bajo en un conjunto de datos. Es la medida de dispersi&oacute;n m&aacute;s simple y se usa para describir la amplitud total de los valores observados.
       .row.justify-content-center.align-items-center
-        .col-lg-5.my-3
+        .col-lg-5.col-7.my-3
           img.img-t.img-a(src='@/assets/template/images/cf3/36.png')
         .col-lg-7.my-3
-          h5  Formula:
+          h5  Fórmula:
           img.img-t.mb-4(src='@/assets/template/images/cf3/37.png')
           .brad.p-3.h-100
             p.mb-3
@@ -76,15 +76,15 @@
       #t_2_2.titulo-segundo.color-acento-botones
         h2 2.2&#x9;Desviaci&oacute;n media
       p
-        | El 
+        | La
         b desviaci&oacute;n media
         |  es la media de las diferencias absolutas entre cada valor del conjunto de datos y la media aritm&eacute;tica. Proporciona una medida del promedio de la dispersi&oacute;n sin considerar la direcci&oacute;n de las desviaciones.
       .row.justify-content-center.align-items-center
-        .col-lg-4.my-3
+        .col-lg-4.col-7.my-3
           img.img-t.img-a(src='@/assets/template/images/cf3/42.png')
         .col-lg-8.my-3
-          h5  Formula: 
-          img.img-t.mb-4(src='@/assets/template/images/cf3/43.png')
+          h5  Fórmula: 
+          img.img-t.mb-4(src='@/assets/template/images/cf3/43.png' alt='la imagen muestra es la fórmula para calcular la desviación media de un conjunto de datos. Desviación media = Σ|xi - x̄| / n donde: xi representa cada uno de los valores del conjunto de datos; x̄ es la media aritmética del conjunto; n es el número total de observaciones. La fórmula calcula la desviación media sumando las diferencias absolutas entre cada valor y la media, y luego dividiendo entre el número total de datos.')
           .brad.p-3.h-100
             p.mb-3
               b Donde:
@@ -93,21 +93,21 @@
                 i.fas.fa-check.v1 
                 .row.justify-content-center.align-items-center
                   .col-auto
-                    img.img-a.img-t(src='@/assets/template/images/cf3/44.png' alt='')
+                    img.img-a.img-t(src='@/assets/template/images/cf3/44.png' alt='la imagen muestra es la fórmula para calcular la desviación media de un conjunto de datos. Desviación media = Σ|xi - x̄| / n donde: xi representa cada uno de los valores del conjunto de datos; x̄ es la media aritmética del conjunto; n es el número total de observaciones. La fórmula calcula la desviación media sumando las diferencias absolutas entre cada valor y la media, y luego dividiendo entre el número total de datos.')
                   .col
                     p.mb-0 es cada valor del conjunto de datos.
               li.mb-3
                 i.fas.fa-check.v1 
                 .row.justify-content-center.align-items-center
                   .col-auto
-                    img.img-a.img-t(src='@/assets/template/images/cf3/45.png' alt='')
+                    img.img-a.img-t(src='@/assets/template/images/cf3/45.png' alt='la imagen muestra es la fórmula para calcular la desviación media de un conjunto de datos. Desviación media = Σ|xi - x̄| / n donde: xi representa cada uno de los valores del conjunto de datos; x̄ es la media aritmética del conjunto; n es el número total de observaciones. La fórmula calcula la desviación media sumando las diferencias absolutas entre cada valor y la media, y luego dividiendo entre el número total de datos.')
                   .col
                     p.mb-0 es la media aritm&eacute;tica.
               li.mb-3
                 i.fas.fa-check.v1 
                 .row.justify-content-center.align-items-center
                   .col-auto
-                    img.img-a.img-t(src='@/assets/template/images/cf3/46.png' alt='')
+                    img.img-a.img-t(src='@/assets/template/images/cf3/46.png' alt='la imagen muestra es la fórmula para calcular la desviación media de un conjunto de datos. Desviación media = Σ|xi - x̄| / n donde: xi representa cada uno de los valores del conjunto de datos; x̄ es la media aritmética del conjunto; n es el número total de observaciones. La fórmula calcula la desviación media sumando las diferencias absolutas entre cada valor y la media, y luego dividiendo entre el número total de datos.')
                   .col
                     p.mb-0 es el n&uacute;mero total de observaciones.
           .bgi.brad.p-3.h-100
@@ -133,7 +133,7 @@
         |  es una medida que refleja el promedio de los cuadrados de las desviaciones de cada valor respecto a la media. La varianza indica qu&eacute; tan dispersos est&aacute;n los datos, y es una de las medidas m&aacute;s importantes en la estad&iacute;stica inferencial.
       .row.justify-content-center.align-items-center
         .col-lg-4.my-3.bg17.p-3.brad
-          h5  Formula: 
+          h5  Fórmula: 
           img.img-t.mb-4(src='@/assets/template/images/cf3/47.png')
           .brad.p-3.h-100
             p.mb-3
@@ -176,7 +176,7 @@
                   i.fas.fa-check.v1 
                   span
                     | Es muy &uacute;til para c&aacute;lculos estad&iacute;sticos avanzados, pero su principal desventaja es que est&aacute; en unidades cuadradas, lo que puede hacer que sea dif&iacute;cil de interpretar directamente.
-        .col-lg-3.my-3
+        .col-lg-3.col-7.my-3
           img.img-t.img-a(src='@/assets/template/images/cf3/51.png')
     .separador-container
       .separador
@@ -188,11 +188,11 @@
         b desviaci&oacute;n est&aacute;ndar
         |  es la ra&iacute;z cuadrada positiva de la varianza y es quiz&aacute;s la medida de dispersi&oacute;n m&aacute;s utilizada. A diferencia de la varianza, la desviaci&oacute;n est&aacute;ndar est&aacute; en las mismas unidades que los datos originales, lo que facilita su interpretaci&oacute;n.
       .row.justify-content-center
-        .col-lg-3.my-3
+        .col-lg-3.col-7.my-3
           img.img-t.img-a(src='@/assets/template/images/cf3/52.png')
         .col-lg-5.my-3
           .bg17.p-3.brad.h-100
-            h5  Formula: 
+            h5  Fórmula: 
             img.img-t.mb-4(src='@/assets/template/images/cf3/53.png')
             .brad.p-3.h-100
               p.mb-3
@@ -254,11 +254,11 @@
         |  es una medida de dispersi&oacute;n relativa que expresa la desviaci&oacute;n est&aacute;ndar como un porcentaje de la media. Es &uacute;til para comparar la variabilidad entre diferentes conjuntos de datos que pueden tener diferentes unidades o medias.
       .row.justify-content-center.bg20.brad
         .col-lg-3.p-0
-          img.img-t(src='@/assets/template/images/cf3/58.png')
+          img.img-t.d-lg-block.d-none(src='@/assets/template/images/cf3/58.png')
         .col-lg-4.my-3.my-lg-0.py-3
           div
-            h5  Formula: 
-            img.img-t.mb-4(src='@/assets/template/images/cf3/59.png')
+            h5  Fórmula: 
+            img.img-t.mb-4(src='@/assets/template/images/cf3/59.png' alt='la imagen muestra la fórmula para calcular el coeficiente de variación (CV), que es una medida de dispersión relativa. Específicamente: CV = (σ / x̄) x 100. σ representa la desviación estándar del conjunto de datos. x̄ representa la media aritmética del conjunto de datos. ')
             .brad.p-3.h-100
               p.mb-3
                 b Donde:
@@ -267,14 +267,14 @@
                   i.fas.fa-check.v1 
                   .row.justify-content-center.align-items-center
                     .col-auto
-                      img.img-a.img-t(src='@/assets/template/images/cf3/60.png' alt='')
+                      img.img-a.img-t(src='@/assets/template/images/cf3/60.png' alt='la imagen muestra la fórmula para calcular el coeficiente de variación (CV), que es una medida de dispersión relativa. Específicamente: CV = (σ / x̄) x 100. σ representa la desviación estándar del conjunto de datos. x̄ representa la media aritmética del conjunto de datos. ')
                     .col
                       p.mb-0 es la desviaci&oacute;n est&aacute;ndar. 
                 li.mb-3
                   i.fas.fa-check.v1 
                   .row.justify-content-center.align-items-center
                     .col-auto
-                      img.img-a.img-t(src='@/assets/template/images/cf3/61.png' alt='')
+                      img.img-a.img-t(src='@/assets/template/images/cf3/61.png' alt='la imagen muestra la fórmula para calcular el coeficiente de variación (CV), que es una medida de dispersión relativa. Específicamente: CV = (σ / x̄) x 100. σ representa la desviación estándar del conjunto de datos. x̄ representa la media aritmética del conjunto de datos. ')
                     .col
                       p.mb-0 es cada valor del conjunto de datos.
         .col-lg-5.my-3.my-lg-0.py-3
@@ -302,11 +302,11 @@
           p.mb-0
             | El 
             b rango intercuart&iacute;lico (IQR)
-            |  mide la dispersi&oacute;n de los datos entre el primer cuartil (Q1Q_1Q1) y el tercer cuartil (Q3Q_3Q3), es decir, la dispersi&oacute;n del 50% central de los datos. Es una medida robusta de dispersi&oacute;n, ya que no se ve afectada por valores at&iacute;picos.
+            |  mide la dispersi&oacute;n de los datos entre el primer cuartil (Q1Q_1Q1) y el tercer cuartil (Q3Q_3Q3), es decir, la dispersi&oacute;n del 50 % central de los datos. Es una medida robusta de dispersi&oacute;n, ya que no se ve afectada por valores at&iacute;picos.
       .row.justify-content-center.align-items-center
         .col-lg-5.my-3.bg17.p-3.brad
-          h5  Formula: 
-          img.img-t.mb-4(src='@/assets/template/images/cf3/63.png')
+          h5  Fórmula: 
+          img.img-t.mb-4(src='@/assets/template/images/cf3/63.png' alt='la imagen muestra la fórmula para calcular el rango intercuartílico (IQR):IQR = Q3 - Q1. Q3 es el tercer cuartil, que representa el valor por debajo del cual se encuentra el 75 % de los datos. Q1 es el primer cuartil, que representa el valor por debajo del cual se encuentra el 25 % de los datos. El rango intercuartílico se calcula restando el primer cuartil (Q1) del tercer cuartil (Q3). Esta medida de dispersión nos informa sobre el rango de valores centrales, excluyendo los valores más altos y más bajos (los extremos).')
           .brad.p-3.h-100
             p.mb-3
               b Donde:
@@ -315,16 +315,16 @@
                 i.fas.fa-check.v1 
                 .row.justify-content-center.align-items-center
                   .col-auto
-                    img.img-a.img-t(src='@/assets/template/images/cf3/64.png' alt='')
+                    img.img-a.img-t(src='@/assets/template/images/cf3/64.png' alt='la imagen muestra la fórmula para calcular el rango intercuartílico (IQR):IQR = Q3 - Q1. Q3 es el tercer cuartil, que representa el valor por debajo del cual se encuentra el 75 % de los datos. Q1 es el primer cuartil, que representa el valor por debajo del cual se encuentra el 25 % de los datos. El rango intercuartílico se calcula restando el primer cuartil (Q1) del tercer cuartil (Q3). Esta medida de dispersión nos informa sobre el rango de valores centrales, excluyendo los valores más altos y más bajos (los extremos).')
                   .col
-                    p.mb-0 es el tercer cuartil (75% de los datos por debajo).
+                    p.mb-0 es el tercer cuartil (75 % de los datos por debajo).
               li.mb-3
                 i.fas.fa-check.v1 
                 .row.justify-content-center.align-items-center
                   .col-auto
-                    img.img-a.img-t(src='@/assets/template/images/cf3/65.png' alt='')
+                    img.img-a.img-t(src='@/assets/template/images/cf3/65.png' alt='la imagen muestra la fórmula para calcular el rango intercuartílico (IQR):IQR = Q3 - Q1. Q3 es el tercer cuartil, que representa el valor por debajo del cual se encuentra el 75 % de los datos. Q1 es el primer cuartil, que representa el valor por debajo del cual se encuentra el 25 % de los datos. El rango intercuartílico se calcula restando el primer cuartil (Q1) del tercer cuartil (Q3). Esta medida de dispersión nos informa sobre el rango de valores centrales, excluyendo los valores más altos y más bajos (los extremos).')
                   .col
-                    p.mb-0 es el primer cuartil (25% de los datos por debajo).
+                    p.mb-0 es el primer cuartil (25 % de los datos por debajo).
         .col-lg-7.my-3
           div
             p.mb-3
@@ -353,8 +353,8 @@
       .row.justify-content-center
         .col-lg-7.my-3.order-1
           .bg7.brad.p-4
-            h5.text-white  Formula: 
-            img.img-t.mb-4(src='@/assets/template/images/cf3/63.png')
+            h5.text-white  Fórmula: 
+            img.img-t.mb-4(src='@/assets/template/images/cf3/63.png' alt='la imagen corresponde al rango intercuartílico (IQR), que mide la dispersión de los datos en un conjunto estadístico. La fórmula es: IQR=Q3 - Q1. ')
             p.mb-4.text-white
               b Propiedades:
             .bgw.p-3.brad.mb-3

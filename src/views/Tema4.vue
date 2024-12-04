@@ -32,7 +32,7 @@
           .bg21.brad.p-3.h-100
             p.mb-4
               b F&oacute;rmula:
-            img.img-t.mb-4(src='@/assets/template/images/cf3/80.svg')
+            img.img-t.mb-4(src='@/assets/template/images/cf3/80.svg' alt='la imagen presenta la forma de calcular la probabilidad de ocurrencia de un evento A, que se define como: P(A) = Número de casos favorables / Número total de casos posibles. P(A) es la probabilidad del evento A. El número de casos favorables son las situaciones que cumplen la condición del evento. El número total de casos posibles incluye todas las situaciones que podrían ocurrir. Se divide el número de resultados favorables entre el número total de resultados posibles. Esto nos da la proporción o probabilidad de que ocurra el evento A.').d-flex.m-auto
             p.mb-4
               b Donde:
             ul.lista-ul--color.fa-ul
@@ -73,10 +73,10 @@
                 span.text-white
                   b Ejemplo:
                   |  En un lanzamiento de un dado de 6 caras, la probabilidad marginal de obtener un n&uacute;mero par (eventos favorables: 2, 4, 6) es:
-            img.img-t.img-a(src='@/assets/template/images/cf3/81.png')
+            img.img-t.img-a(src='@/assets/template/images/cf3/81.png' alt='La imagen explica en el ejemplo proporcionado, un lanzamiento de un dado de 6 caras. La probabilidad marginal de obtener un número par (eventos favorables: 2, 4, 6) es: P(Número par) = 3/6 = 0.5. La fórmula muestra cómo se calcula esta probabilidad marginal, dividiendo el número de casos favorables entre el número total de casos posibles.')
         .col-lg-5.my-3
           .bgw.brad.p-4.h-100.j1
-            img.img-t.img-a(src='@/assets/template/images/cf3/82.png')
+            img.img-t.img-a(src='@/assets/template/images/cf3/82.png' alt='')
     .separador-container
       .separador
     section
@@ -96,7 +96,7 @@
                 b Eventos mutuamente excluyentes
             p
               | Son aquellos eventos que no pueden ocurrir al mismo tiempo. La probabilidad de que ocurra AAA o BBB es la suma de las probabilidades de cada evento:
-            img.img-t.img-a(src='@/assets/template/images/cf3/82.svg')
+            img.img-t.img-a(src='@/assets/template/images/cf3/82.svg' alt='la imagen presenta dos casos para calcular probabilidades cuando se tienen eventos mutuamente excluyentes y eventos no mutuamente excluyentes. Para eventos mutuamente excluyentes: son aquellos eventos que no pueden ocurrir al mismo tiempo. La probabilidad de que ocurra AAA o BBB es la suma de las probabilidades de cada evento: P(A o B) = P(A) + P(B). Para eventos no mutuamente excluyentes: son eventos que pueden ocurrir juntos.En este caso, es necesario restar la intersección de ambos eventos para evitar contar dos veces la probabilidad compartida: P(A o B) = P(A) + P(B) - P(A y B). La fórmula para eventos no mutuamente excluyentes nos dice que la probabilidad de que ocurra A o B es igual a la probabilidad de A más la probabilidad de B, menos la probabilidad de que ocurran A y B de forma conjunta. ')
         .col-lg-4.my-lg-0.my-3.j1
           .bg24.text-white.p-4.brad.h-100
             .row.justify-content-start.mb-4
@@ -104,7 +104,7 @@
                 b Eventos no mutuamente excluyentes
             p
               | Son eventos que pueden ocurrir juntos. En este caso, es necesario restar la intersecci&oacute;n de ambos eventos:
-            img.img-t.img-a(src='@/assets/template/images/cf3/83.svg')
+            img.img-t.img-a(src='@/assets/template/images/cf3/83.svg' alt='la imagen presenta dos casos para calcular probabilidades cuando se tienen eventos mutuamente excluyentes y eventos no mutuamente excluyentes. Para eventos mutuamente excluyentes: son aquellos eventos que no pueden ocurrir al mismo tiempo. La probabilidad de que ocurra AAA o BBB es la suma de las probabilidades de cada evento: P(A o B) = P(A) + P(B). Para eventos no mutuamente excluyentes: son eventos que pueden ocurrir juntos.En este caso, es necesario restar la intersección de ambos eventos para evitar contar dos veces la probabilidad compartida: P(A o B) = P(A) + P(B) - P(A y B). La fórmula para eventos no mutuamente excluyentes nos dice que la probabilidad de que ocurra A o B es igual a la probabilidad de A más la probabilidad de B, menos la probabilidad de que ocurran A y B de forma conjunta. ')
     .separador-container
       .separador
     section
@@ -123,14 +123,14 @@
                   | Eventos independientes
             p
               | Si los eventos no afectan la probabilidad del otro, la probabilidad conjunta de que ocurra AAA y BBB es:
-            img.img-t.img-a(src='@/assets/template/images/cf3/85.svg')
+            img.img-t.img-a(src='@/assets/template/images/cf3/85.svg' alt='La imagen explica la regla de la multiplicación en probabilidad, que se utiliza para calcular la probabilidad de que ocurran dos o más eventos de manera conjunta (intersección de eventos). Existen dos casos: En eventos independientes la fórmula para calcular la probabilidad conjunta es: P(A y B)=P(A)×P(B). P(A): probabilidad de que ocurra el evento AAA. P(B)P(B)P(B): Probabilidad de que ocurra el evento BBB. Se multiplican porque la probabilidad de que ambos ocurran no depende de que el otro haya sucedido. En eventos dependientes la fórmula para calcular la probabilidad conjunta es: P(A y B)=P(A)×P(B∣A). P(A): probabilidad de que ocurra el evento AAA. P(B∣A): Probabilidad de que ocurra el evento BBB dado que AAA ya ocurrió. La probabilidad de B se ajusta considerando que A ha ocurrido, lo que refleja su relación dependiente.')
         .col-lg-4.my-lg-0.my-3
           .bg7.text-white.p-4.brad.h-100
             .row.justify-content-start.mb-4
               p.col-lg-auto.mb-2.bg11.text-white.px-3
                 b Eventos dependientes
             p Si los eventos est&aacute;n relacionados, la probabilidad conjunta se calcula: 
-            img.img-t.img-a.mb-4(src='@/assets/template/images/cf3/86.svg')
+            img.img-t.img-a.mb-4(src='@/assets/template/images/cf3/86.svg' alt='La imagen explica la regla de la multiplicación en probabilidad, que se utiliza para calcular la probabilidad de que ocurran dos o más eventos de manera conjunta (intersección de eventos). Existen dos casos: En eventos independientes la fórmula para calcular la probabilidad conjunta es: P(A y B)=P(A)×P(B). P(A): probabilidad de que ocurra el evento AAA. P(B)P(B)P(B): Probabilidad de que ocurra el evento BBB. Se multiplican porque la probabilidad de que ambos ocurran no depende de que el otro haya sucedido. En eventos dependientes la fórmula para calcular la probabilidad conjunta es: P(A y B)=P(A)×P(B∣A). P(A): probabilidad de que ocurra el evento AAA. P(B∣A): Probabilidad de que ocurra el evento BBB dado que AAA ya ocurrió. La probabilidad de B se ajusta considerando que A ha ocurrido, lo que refleja su relación dependiente.')
             p Donde P(B|A) es la probabilidad de que ocurra B dado que ya ocurri&oacute; A.
         .col-lg-4.my-lg-0.my-3.j1
           img.img-t.img-a(src='@/assets/template/images/cf3/87.png')
@@ -150,7 +150,7 @@
           .bg25.brad.p-3.h-100
             p.mb-4
               b F&oacute;rmula:
-            img.img-t.mb-4(src='@/assets/template/images/cf3/89.svg')
+            img.img-t.mb-4(src='@/assets/template/images/cf3/89.svg' alt='la imagen muestra la fórmula de teorema de Bayes. Es: P(B|A) = (P(B|A) x P(A)) / P(B). P(B|A) es la probabilidad de A dado B. P(A|B) es la probabilidad de B dado A. P(A) y P(B) son las probabilidades marginales de A y B, respectivamente. ')
             p.mb-4
               b Donde:
             ul.lista-ul--color.fa-ul
@@ -165,7 +165,7 @@
               li.mb-3
                 i.fas.fa-check.v1
                 span
-                  | P(A) y P(B) es la probabilidades marginales de A y B, respectivamente.
+                  | P(A) y P(B) son las probabilidades marginales de A y B, respectivamente.
       .row.justify-content-start.mb-5
         .col-auto
           .list
@@ -236,14 +236,14 @@
       .separador
     section
       #t_4_7.titulo-segundo.color-acento-botones
-        h2 4.7&#x9;Distribuci&oacute;n t-student
+        h2 4.7&#x9;Distribuci&oacute;n #[em t-student]
       .row.justify-content-center
         .col-lg-3.my-lg-0.my-3.j1
           img.img-t.img-a(src='@/assets/template/images/cf3/95.png')
         .col-lg-9.my-lg-0.my-3
           p
             | La 
-            b distribuci&oacute;n t-student
+            b distribuci&oacute;n #[em t-student]
             |  se utiliza cuando el tama&ntilde;o de la muestra es peque&ntilde;o y la desviaci&oacute;n est&aacute;ndar de la poblaci&oacute;n es desconocida. Es similar a la distribuci&oacute;n normal, pero con colas m&aacute;s gruesas, lo que refleja una mayor probabilidad de valores extremos.
           .bg17.br-d.brad.p-4
             p.mb-4
@@ -252,7 +252,7 @@
               li.mb-3
                 i.fas.fa-check.v1
                 span
-                  | La distribuci&oacute;n t se utiliza principalmente en pruebas de hip&oacute;tesis, como la prueba t, cuando se trabaja con muestras peque&ntilde;as (generalmente n<30n < 30n<30).
+                  | La distribuci&oacute;n t se utiliza principalmente en pruebas de hip&oacute;tesis, como la prueba t, cuando se trabaja con muestras peque&ntilde;as (generalmente n < 30n < 30n < 30).
     .separador-container
       .separador
     section
@@ -270,7 +270,7 @@
           .bg25.brad.p-3.h-100
             p.mb-4
               b F&oacute;rmula:
-            img.img-t.mb-4(src='@/assets/template/images/cf3/96.svg')
+            img.img-t.mb-4(src='@/assets/template/images/cf3/96.svg' alt='la imagen muestra la fórmula de la prueba de valor z. Es: z = (x - μ) / σ. x es el valor de la observación. μ es la media de la población. σ es la desviación estándar de la población.')
             p.mb-4
               b Donde:
             ul.lista-ul--color.fa-ul

@@ -11,7 +11,7 @@
         .col-12.col-md-8.col-lg-9
           .titulo-segundo
             h2 Prueba de conocimientos sobre análisis estadístico de datos y generación de gráficos.
-          p.mb-4 Validar el conocimiento adquirido sobre sobre recolección de datos para análisis. Esto se trabaja con el propósito de buscar una dinámica de razonamiento ágil sobre opciones cerradas y reafirmar un conocimiento declarado dentro del componente.
+          p.mb-4 Validar el conocimiento adquirido sobre recolección de datos para análisis. Esto se trabaja con el propósito de buscar una dinámica de razonamiento ágil sobre opciones cerradas y reafirmar un conocimiento declarado dentro del componente.
           .tarjeta.actividad.p-3
             .row.justify-content-around.align-items-center            
               .col-sm.mb-3.mb-sm-0
